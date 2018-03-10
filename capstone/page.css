@@ -1,5 +1,5 @@
 html {
-  background-color: brown;
+  background-image: radial-gradient(silver,lightgreen);
 }
 /*
 img {
@@ -26,10 +26,10 @@ h1 {
 
 h1 {
   color: white;
-  text-shadow: 2px 2px gray;
+  text-shadow: 20px 20px  50px lightgreen;
 }
 p {
-  color: white;
+  color: gray;
   text-align: center;
 
   font-size: 20px;
@@ -38,11 +38,17 @@ p {
   font-family:italic, Arial, verdana;
   margin: 65px;
 }
+#paragraph{
+  /*background-color: rgb(200, 200, 200);*/
+background-color: rgb(198, 233, 197)
+  padding: 10px;
+  box-shadow: 5px 10px 15px;
+}
 .left {
   -webkit-columns: 100px 3;
   margin: 20px;
   columns: 100px 3;
-  color: white;
+  color: gray;
   line-height: 35px;
   letter-spacing: 2px;
     font-family:italic, Arial, verdana;
@@ -54,14 +60,19 @@ p {
   line-height: 35px;
   letter-spacing: 2px;
 }*/
+#column{
+  background-color: rgb(184, 218, 183);
+  padding: 10px;
+  box-shadow: 5px 10px 15px;
+}
 a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
-    margin-left: 590px;
+    margin-left: 640px;
     text-align: center;
     border-radius: 12px;
-    background-color: white;
+    background-color: lightblue;
 
 }
 
