@@ -2,7 +2,7 @@ html, body{
     height: 100%;
 }
 #header{
-    background-image: url("/Users/jpardo-cano729/CapStone/JMG/html5-boilerplate_v6.0.1/img/image7.jpg");
+    background-image: url("/JMG/html5-boilerplate_v6.0.1/img/image7.jpg");
     background-attachment: fixed;
          padding: 13em 0 13em 0;
      
@@ -13,12 +13,71 @@ html, body{
          text-align: center;
 }
 
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(63, 58, 58);
+    margin: 6px 0;
+    transition: 0.4s;
+
+}
+
+.change .bar1{
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2{
+    opacity: 0;
+}
+
+.change .bar3{
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.7s;
+    padding-top: 60px;
+}
+
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 28px;
+    color: gray;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+color: lightgrey;
+}
+
+.sidenav .close{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
 section#header header h1{
     color:white;
 }
 #section_text{
     padding: 0 5em 0 5em;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     line-height: 1.5em
 }
 .column div img{
