@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Capstone</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,16 +20,27 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container" onclick="navBar(this); openNav();">
+        <div class="container">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
         <div id="Sidenav" class="sidenav">
-            <a href="#" class="close" onclick="closeNav()">&times;</a>
-            <a href="">About</a>
-            <a href="">Services</a>
-            <a href="">Contact</a>
+            <ul class ="mainmenu">
+            <a href="#" class="close" onclick="closeNav()"></a>
+            <a href="#" class="submenuTitle"><li>About</li></a>
+            <ul>
+
+            </ul>
+            <a href="#" class="submenuTitle"><li>Services</li></a>
+            <ul>
+
+            </ul>
+            <a href="#" class="submenuTitle"><li>Contact</li></a>
+            <ul>
+                
+            </ul>
+            </ul>
         </div>
         <section id="header">
             <header>
@@ -37,6 +48,7 @@
 
             </header>
         </section>
+
         <section id="row">
             <div class="column left">
                 <p id="section_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veniam placeat asperiores maiores voluptatum 
@@ -44,7 +56,6 @@
                  Animi, reiciendis earum quia consequatur accusamus repellendus amet totam dolorum tenetur quam veritatis omnis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia maxime fugiat molestias fugit nesciunt nihil animi quos, obcaecati expedita labore 
                  quod assumenda, libero explicabo sint perferendis quaerat nemo dolor voluptate. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus ab rerum dolores voluptatum deserunt odit unde esse non voluptatibus voluptate nesciunt, ipsam vitae reprehenderit earum 
                  impedit error illo doloremque dolorem?</p>
-            <button></button>
             </div>
                 <div class="column right">
                     <div class="Wimages"><img src="img/image2.jpeg" alt=""></div>
@@ -68,6 +79,6 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-        <script src="main.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

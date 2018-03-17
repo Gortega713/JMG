@@ -2,7 +2,7 @@ html, body{
     height: 100%;
 }
 #header{
-    background-image: url("/JMG/html5-boilerplate_v6.0.1/img/image7.jpg");
+    background-image: url(/Users/jpardo-cano729/CapStone/JMG/html5-boilerplate_v6.0.1/img/image7.jpg);
     background-attachment: fixed;
          padding: 13em 0 13em 0;
      
@@ -16,6 +16,11 @@ html, body{
 .container{
     display: inline-block;
     cursor: pointer;
+    position: fixed;
+    width:100%;
+    background-color: rgba(173, 216, 230, 1);
+    transition: 0.5s;
+    padding-left:5px; 
 }
 
 .bar1, .bar2, .bar3{
@@ -43,26 +48,32 @@ html, body{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    /* z-index: 1; */
     top: 0;
     left: 0;
     background-color: black;
     overflow-x: hidden;
-    transition: 0.7s;
+    transition: 0.8s;
     padding-top: 60px;
 }
 
+.sidenav .mainmenu {
+    padding-left: 20px;
+}
+
 .sidenav a{
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 0px;
     text-decoration: none;
     font-size: 28px;
     color: gray;
     display: block;
-    transition: 0.3s;
+    transition: 0.7s ease-out;
+    list-style-type: none;
 }
 
 .sidenav a:hover{
 color: lightgrey;
+margin-left: 1em;
 }
 
 .sidenav .close{
@@ -71,6 +82,13 @@ color: lightgrey;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+}
+#main{
+    transition: 0.8s;
+
+}
+#space{
+    padding: 5px 0 5px 0;
 }
 section#header header h1{
     color:white;
@@ -101,5 +119,5 @@ display: flex;
 }
 
 .Wimages{
- width: 66%;
+    padding-top: 10px;
 }
