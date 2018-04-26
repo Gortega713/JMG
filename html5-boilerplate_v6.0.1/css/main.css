@@ -1,123 +1,36 @@
-html, body{
-    height: 100%;
-}
-#header{
-    background-image: url(/Users/jpardo-cano729/CapStone/JMG/html5-boilerplate_v6.0.1/img/image7.jpg);
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    max-height:500px;
     background-attachment: fixed;
-         padding: 13em 0 13em 0;
-     
-         /* Center and scale the image nicely */
-         background-position: center;
-         background-repeat: no-repeat;
-         background-size: cover;
-         text-align: center;
 }
 
-.containerN{
-    display: inline-block;
-    cursor: pointer;
-    position: fixed;
-    width:100%;
-    background-color: rgba(173, 216, 230, 1);
-    transition: 0.5s;
-    padding-left:5px; 
+#captionText{
+    padding-bottom: 6em;
 }
 
-.bar1, .bar2, .bar3{
-    width: 35px;
-    height: 5px;
-    background-color: rgb(63, 58, 58);
-    margin: 6px 0;
-    transition: 0.4s;
-
+.navbar-inverse{
+    background-color: rgb(72,160,37);
 }
 
-.change .bar1{
-    transform: rotate(-45deg) translate(-9px, 6px);
+.navbar-inverse{
+    border-color: rgb(72,160,37);
 }
 
-.change .bar2{
-    opacity: 0;
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color:  rgb(46, 95, 26);
 }
 
-.change .bar3{
-    transform: rotate(45deg) translate(-8px, -8px);
-}
 
-.sidenav{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    /* z-index: 1; */
-    top: 0;
-    left: 0;
-    background-color: black;
-    overflow-x: hidden;
-    transition: 0.8s;
-    padding-top: 60px;
-}
 
-.sidenav .mainmenu {
-    padding-left: 20px;
-}
-
-.sidenav a{
-    padding: 8px 8px 8px 0px;
-    text-decoration: none;
-    font-size: 28px;
-    color: gray;
-    display: block;
-    transition: 0.7s ease-out;
-    list-style-type: none;
-}
-
-.sidenav a:hover{
-color: lightgrey;
-margin-left: 1em;
-}
-
-.sidenav .close{
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-#main{
-    transition: 0.8s;
-
-}
-#space{
-    padding: 5px 0 5px 0;
-}
-section#header header h1{
-    color:white;
-}
-#section_text{
-    padding: 0 5em 0 5em;
-    letter-spacing: 2px;
-    line-height: 1.5em
-}
-.column div img{
-    border-radius: .05em;
-}
-
-.column{
-    flex: 50%;
-}
-
-#row{
-display: flex;
-}
-
-.left{
-    width: 30%;
-}
-
-.right{
-    width: 70%;
-}
-
-.Wimages{
-    padding-top: 10px;
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
 }
