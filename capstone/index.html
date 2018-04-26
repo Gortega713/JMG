@@ -7,25 +7,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="css2.css">
   <title>Bootstrap</title>
 </head>
 
 <body>
+  <nav id="navbar-site" class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Products & Service</a></li>
+      </ul>
+      <form class="form-inline" action="/action_page.php">
+        <input class="form-control" type="text" placeholder="Search">
+        <button class="btn btn-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
   <div class="container">
-    <h1 class="display-4">Vermi-Composting</h1>
-    <p class="lead text-justify">Vermicomposting uses composting worms -- such as red worms -- to break down organic wastes into castings, aka black gold or worm poop. Currently, vermicomposting is a growing effort that has shown great innovation and scaleability.</p>
-    <p class="lead text-justify"><strong>Less Labor Intensive:</strong> When we say "organic materials," we mean the following waste can be added: food, leaves, grains, and natural cloths (such as cotton). In traditional composting, you need to stock pile in preparation for the next
-      "batch." Vermicomposting, however, is less labor intensive, as it requires little turning/aerating necessary because the worm activity helps to mix, fragment, and aerate waste.</p>
-    <p class="lead text-justify"><strong>Great for Both Small or Large Spaces:</strong> In addition, vermicomposting does not require as much space as traditional compost piles. It only requires a bin approximately 8 to 16 inches deep with 1 to 2 square feet of surface area. This
-      means they can be contained in something as small as a Nature's Little Recyclers Mini-Bin, a five-gallon bucket, or a twenty-gallon bin, and thus creates the ability to have indoor systems. And when vermicomposting outdoors, the space used can grow
-      as large as the Herdsman can feed the worms.</p>
-    <p class="lead text-justify"><strong>Can Be Done Year Round:</strong>Weather is a key factor in composting. Traditional composting methods slow down in very cold weather, but vermicomposting allows for true year round composting. Since vermicomposting can be done in indoor spaces,
-      it is spared any inclement weather and can be done year-round. With the ability to continuously feed, Nature's Little Recyclers can feed their outside vermicomposting systems year round through innovative practice.</p>
+    <header>
+      <div class="display-4 mb-4">Vermi-Composting</div>
+      <p class="lead text-justify">Vermicomposting uses composting worms -- such as red worms -- to break down organic wastes into castings, aka black gold or worm poop. Currently, vermicomposting is a growing effort that has shown great innovation and scaleability.</p>
+    </header>
+    <div class="row">
+      <section class="col-sm-4">
+        <h4>Organic Materials</h4>
+        <p class="lead text-justify">When we say "organic materials," we mean the following waste can be added: food, leaves, grains, and natural cloths (such as cotton).
+          <!--In traditional composting, you need to stock pile in preparation for the next "batch."-->
+        </p>
+      </section>
+      <section class="col-sm-4">
+        <h4>Less Labor Intensive</h4>
+        <p class="lead text-justify">Vermicomposting less labor intensive, as it requires little turning/aerating necessary because the worm activity helps to mix, fragment, and aerate waste.</p>
+      </section>
+      <section class="col-sm-4">
+        <h4>Great For All Spaces</h4>
+        <p class="lead text-justify">In addition, vermicomposting does not require as much space as traditional compost piles. It only requires a bin approximately 8 to 16 inches deep with 1 to 2 square feet of surface area.
+
+        </p>
+      </section>
+      <section class="col-sm-4">
+        <h4>In Perspective</h4>
+        <p class="lead text-justify"> This means they can be contained in something as small as a Nature's Little Recyclers Mini-Bin, a five-gallon bucket, or a twenty-gallon bin, and thus creates the ability to have indoor systems. And when vermicomposting outdoors, the space used
+          can grow as large as the Herdsman can feed the worms.</p>
+      </section>
+      <section class="col-sm-4">
+        <h4>Can be done Year round</h4>
+        <p class="lead text-justify">Weather is a key factor in composting. Traditional composting methods slow down in very cold weather, but vermicomposting allows for true year round composting.
+        </p>
+      </section>
+      <section class="col-sm-4">
+        <h4>The Advantages of this</h4>
+        <p class="lead text-justify">Since vermicomposting can be done in indoor spaces, it is spared any inclement weather and can be done year-round. With the ability to continuously feed Nature's Little Recyclers can feed their outside vermicomposting systems year round through
+          innovative practice.</p>
+      </section>
+    </div>
   </div>
   <!-- container -->
 
 
   <script src="bootstrap.min.js"></script>
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
