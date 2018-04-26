@@ -1,4 +1,4 @@
-var navAnimated = document.getElementsByClassName("container")[0];
+var navAnimated = document.getElementsByClassName("containerN")[0];
             
 function openNav(){
     navAnimated.classList.add("change");
