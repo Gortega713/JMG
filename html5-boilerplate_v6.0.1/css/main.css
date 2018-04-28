@@ -10,8 +10,9 @@
     background-attachment: fixed;
 }
 
-#captionText{
+.captionText{
     padding-bottom: 6em;
+    font-size: 3em;
 }
 
 .navbar-inverse{
@@ -28,9 +29,15 @@
 
 
 
+
+
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
   .carousel-caption {
     display: none; 
+  }
+
+  .carousel-inner{
+      height:300px;
   }
 }
