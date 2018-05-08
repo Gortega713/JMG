@@ -1,20 +1,7 @@
 window.addEventListener("load", function(){
-   
    checkLogin();    
 });
 
-// function storeValues(){
-//     if(localStorage.getItem("email") == ""){
-//     var userName = document.getElementById("email");
-//     localStorage.setItem("email", "asdfg");
-//     }
-//     else{
-//         checkLogin();
-//     }
-//     // var userPass = document.getElementById("password");
-//     // localStorage.setItem("Password", userPass.value);
-//     checkLogin();
-// }
 var i = 0;
 function checkLogin() {
      var storedEmail = localStorage.getItem("email");
@@ -55,9 +42,6 @@ function checkLogin() {
        
 }
 
-function incorrectLogin(userName){
-    
-};
 }
 
 
