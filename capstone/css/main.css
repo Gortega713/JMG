@@ -44,6 +44,11 @@
     margin: auto;
 }
 
+.content{
+    padding-top: 7em; 
+    line-height: 2em;
+}
+
 
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
