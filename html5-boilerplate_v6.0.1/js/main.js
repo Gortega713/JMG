@@ -1,6 +1,19 @@
 window.addEventListener("load", function(){
+    document.getElementById("display").addEventListener("click", changeText);
    checkLogin();    
 });
+
+function changeText(){
+    document.getElementById("display").innerHTML = "Show Less";
+    document.getElementById("display").removeEventListener("click", changeText)
+    document.getElementById("display").addEventListener("click", changeText2);
+}
+
+function changeText2(){
+    document.getElementById("display").innerHTML = "Show More";
+    document.getElementById("display").removeEventListener("click", changeText2)
+    document.getElementById("display").addEventListener("click", changeText);
+}
 
 var i = 0;
 function checkLogin() {
